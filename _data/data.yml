@@ -3,13 +3,13 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Randall Adams
     tagline: Software Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: randall.adams@outlook.com
@@ -23,10 +23,6 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-
-    languages:
-      - idiom: English
-        level: Native
 
     interests:
       - item: Running
@@ -44,13 +40,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Software Engineer with over 10 years of experience building web applications.
+      Known for getting things done, I have built software solutions to complex problems using innovative solutions.
 
 education:
     - degree: BS, Computer Science (Currently Enrolled)
@@ -61,76 +52,95 @@ education:
         Western Governor's University due to scheduling.
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
-
     - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+      time: 2016 - Present
+      company: Myriad Genetics, Inc., Salt Lake City, UT
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        As Senior Software Engineer at Myriad Genetics I was responsible for leading front-end development
+        across the informatics department.
 
-          - Bullet point
-          - Bullet point
+          - Developed complex ordering system for healthcare providers with over 10,000 monthly users.
+          - Lead front-end development across the department by instituting a front-end COP (community of practice) with bi-weekly trainings.
+          - As a member of the architecture team I participated in design reviews, technology selection, and cross department integrations.
+          - Developed patient identication application that assisted healthcare providers in identifying their patients' risk of cancer.
+          - Developed front-end framework in VueJS that is used department wide to build and maintain new internal web apps.
+          - Began development of design system using thin wrappers of Vuetify components.
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Web Systems Manager/Full Stack Developer
+      time: 2009 - 2016
+      company: Myriad Genetics, Inc., Salt Lake City, UT
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          As Web Systems Manager/Front End Developer I managed a small team of designers and developers that were 
+          responsible for many internal and external applications. I spent most 
+          of my time writing Javascript, PHP, HTML, and CSS.
 
-          - Bullet point
-          - Bullet point
+          - Created and implemented web development standards and processes to manage a small team of designers/developers.
+          - Implemented content management systems (Wordpress and Sharepoint). Built many custom themes and plugins for Wordpress.
+          - Built MyriadPro.com from the ground up and integrated various applications to create a seamless experience for customers.
+          - Using AngularJS and some other web technologies I built several patient risk identification applications that gather family history, generate pedigrees, run various risk assessment models, and inform patients of their potential risk of hereditary cancer.
+          - Built several provider education applications to teach providers how to use Myriad’s testing products.
+          - Created RESTful API for use by many web and native mobile applications. 
+          - Built several internal applications including: company directory, onboarding application, style guides, etc.
+          - Pioneered usage Amazon Web Services (Cloudfront and S3).
+          - Built online patient payment application.
+
+
+
+    - role: IT Manager
+      time: 2006 - 2009
+      company: Touchfon International, Draper, UT
+      details: |
+        As the IT Manager for a small telephony company I was responsible for everything IT including: 
+        web development, server/app administration, and desktop support.
+
+          - Integrated several applications with legacy telephony systems.
+          - Fully automated customer creation process.
+          - Built replicated website application for various MLM companies.
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Coral
+        link: /assets/images/coral-presentation.pdf
+        tagline: "Coral is a loose acronym for core application launcher. It is front-end platform 
+          built in VueJS. The platform focuses on principles of coupling/cohesion dynamics with the main goal being
+          a reduction in effort duplication. The platform provides things like login (SSO), authorization, componentry,
+          routing, asset chunking, unit testing, etc. Coral is a huge project that I continue to develop. My main focus
+          now is onboarding new developers into the system."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: myGeneHistory
+        link: "https://www.mygenehistory.com"
+        tagline: "myGeneHistory is a SPA written in VueJS that helps healthcare providers identify and test their 
+          patients' at risk for hereditary cancer. The app uses a RESTful API to provide many features like societal guideline
+          recommendations. One thing I love about myGeneHistory is the unit testing coverage. Vue test utils and Jest was 
+          implemented in the beginning and now we have over 600 unit tests with over 90% code coverage. The app also integrates
+          with our provider portal (MyriadPro) to faciliate ordering by pre-populating orders."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: MyriadPro
+        link: "https://www.myriadpro.com/resultsnow"
+        tagline: "A reporting/ordering portal for Myriad's healthcare providers. The app is a hybrid custom PHP app with AngularJS
+          handling routing and template generation."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Quickpedigree.com
+        link: "https://www.quickpedigree.com/"
+        tagline: "An Angular SPA used to quickly draw a family history pedigree. This app is preferred over many paid
+          pedigree drawing applictions by Myriad's own Genetic Counselor's. The app uses GoJS to draw the actual pedigree
+          in an HTML canvas."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Find A Provider
+        link: "https://webapps.myriad.com/find-provider/"
+        tagline: "A PHP/jQuery app that uses Myriad's provider database and Google Maps API to find health care providers
+          based on lat/long coordinates. I worked with our CRM team to populate the provider datavase with lat/long 
+          coordinates and then created a RESTful API to lookup providers based on distance from a user provided location.
+          The app has been repurposed several times across the organization for various business units."
+      
+      - title: Custom MAP Builder
+        link: "https://webapps.myriad.com/custom-map/app/"
+        tagline: "AngularJS app that generated custom assays for internal sales reps. The app spans across hundreds of analytes
+          to construct a detailed MAP of the assay across the company's products. The app also exported the assay as a spreadsheet."
+
 
 publications:
     title: Publications

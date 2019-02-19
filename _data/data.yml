@@ -60,14 +60,14 @@ experiences:
       time: 2016 - Present
       company: Myriad Genetics, Inc., Salt Lake City, UT
       details: |
-        As Senior Software Engineer at Myriad Genetics I was responsible for leading front-end development
+        As Senior Software Engineer at Myriad Genetics I was responsible for leading front end development
         across the informatics department.
 
-          - Developed complex ordering system for healthcare providers with over 10,000 monthly users.
-          - Lead front-end development across the department by instituting a front-end COP (community of practice) with bi-weekly trainings.
+          - Developed complex ordering system for health care providers with over 10,000 monthly users.
+          - Lead front end development across the department by instituting a front end COP (community of practice) with bi weekly trainings.
           - As a member of the architecture team I participated in design reviews, technology selection, and cross department integrations.
-          - Developed patient identication application that assisted healthcare providers in identifying their patients' risk of cancer.
-          - Developed front-end framework in VueJS that is used department wide to build and maintain new internal web apps.
+          - Developed patient identication application that assisted health care providers in identifying their patients' risk of cancer.
+          - Developed front end framework in VueJS that is used department wide to build and maintain new internal web apps.
           - Began development of design system using thin wrappers of Vuetify components.
 
     - role: Web Systems Manager/Full Stack Developer
@@ -108,7 +108,7 @@ projects:
     assignments:
       - title: Coral
         link: /assets/images/coral-presentation.pdf
-        tagline: "Coral is a loose acronym for core application launcher. It is front-end platform 
+        tagline: "Coral is a loose acronym for core application launcher. It is front end platform 
           built in VueJS. The platform focuses on principles of coupling/cohesion dynamics with the main goal being
           a reduction in effort duplication. The platform provides things like login (SSO), authorization, componentry,
           routing, asset chunking, unit testing, etc. Coral is a huge project that I continue to develop. My main focus
@@ -116,27 +116,27 @@ projects:
 
       - title: myGeneHistory
         link: "https://www.mygenehistory.com"
-        tagline: "myGeneHistory is a SPA written in VueJS that helps healthcare providers identify and test their 
+        tagline: "myGeneHistory is a SPA written in VueJS that helps health care providers identify and test their 
           patients' at risk for hereditary cancer. The app uses a RESTful API to provide many features like societal guideline
           recommendations. One thing I love about myGeneHistory is the unit testing coverage. Vue test utils and Jest was 
           implemented in the beginning and now we have over 600 unit tests with over 90% code coverage. The app also integrates
-          with our provider portal (MyriadPro) to faciliate ordering by pre-populating orders."
+          with our provider portal (MyriadPro) to facilitate ordering by pre-populating orders."
 
       - title: MyriadPro
         link: "https://www.myriadpro.com/resultsnow"
-        tagline: "A reporting/ordering portal for Myriad's healthcare providers. The app is a hybrid custom PHP app with AngularJS
+        tagline: "A reporting/ordering portal for Myriad's health care providers. The app is a hybrid custom PHP app with AngularJS
           handling routing and template generation."
 
       - title: Quickpedigree.com
         link: "https://www.quickpedigree.com/"
         tagline: "An Angular SPA used to quickly draw a family history pedigree. This app is preferred over many paid
-          pedigree drawing applictions by Myriad's own Genetic Counselor's. The app uses GoJS to draw the actual pedigree
+          pedigree drawing applications by Myriad's own Genetic Counselor's. The app uses GoJS to draw the actual pedigree
           in an HTML canvas."
 
       - title: Find A Provider
         link: "https://webapps.myriad.com/find-provider/"
         tagline: "A PHP/jQuery app that uses Myriad's provider database and Google Maps API to find health care providers
-          based on lat/long coordinates. I worked with our CRM team to populate the provider datavase with lat/long 
+          based on lat/long coordinates. I worked with our CRM team to populate the provider database with lat/long 
           coordinates and then created a RESTful API to lookup providers based on distance from a user provided location.
           The app has been repurposed several times across the organization for various business units."
       
@@ -146,7 +146,7 @@ projects:
           to construct a detailed MAP of the assay across the company's products. The app also exported the assay as a spreadsheet."
       
       - title: myRisk App
-        tagline: "Cordova native app that allows healthcare providers to educate their patients on hereditary cancer testing and
+        tagline: "Cordova native app that allows health care providers to educate their patients on hereditary cancer testing and
           identify their risk for hereditary cancer. The app is deployed in more than 600 health care provider office across the US."
 
 

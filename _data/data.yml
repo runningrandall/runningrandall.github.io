@@ -41,7 +41,7 @@ career-profile:
     title: Career Profile
     summary: |
       Software Engineer with over 10 years of experience building web applications.
-      Known for getting things done, I have built software solutions to complex problems using innovative solutions.
+      Known for getting things done, I love building software solutions to complex problems using innovative solutions.
 
 education:
     - degree: BS, Computer Science (Currently Enrolled)
@@ -60,7 +60,7 @@ experiences:
       time: 2016 - Present
       company: Myriad Genetics, Inc., Salt Lake City, UT
       details: |
-        As Senior Software Engineer at Myriad Genetics I was responsible for leading front end development
+        As Senior Software Engineer at Myriad Genetics I am responsible for leading front end development
         across the informatics department.
 
           - Developed complex ordering system for health care providers with over 10,000 monthly users.
@@ -74,7 +74,7 @@ experiences:
       time: 2009 - 2016
       company: Myriad Genetics, Inc., Salt Lake City, UT
       details: |
-          As Web Systems Manager/Front End Developer I managed a small team of designers and developers that were 
+          As Web Systems Manager/Full Stack Developer I managed a small team of designers and developers that were 
           responsible for many internal and external applications. I spent most 
           of my time writing Javascript, PHP, HTML, and CSS.
 
@@ -83,9 +83,9 @@ experiences:
           - Built MyriadPro.com from the ground up and integrated various applications to create a seamless experience for customers.
           - Using AngularJS and some other web technologies I built several patient risk identification applications that gather family history, generate pedigrees, run various risk assessment models, and inform patients of their potential risk of hereditary cancer.
           - Built several provider education applications to teach providers how to use Myriad’s testing products.
-          - Created RESTful API for use by many web and native mobile applications. 
+          - Created RESTful APIs for use by many web and mobile applications. 
           - Built several internal applications including: company directory, onboarding application, style guides, etc.
-          - Pioneered usage Amazon Web Services (Cloudfront and S3).
+          - Pioneered usage of Amazon Web Services (Cloudfront and S3).
           - Built online patient payment application.
 
 
@@ -130,7 +130,7 @@ projects:
       - title: Quickpedigree.com
         link: "https://www.quickpedigree.com/"
         tagline: "An Angular SPA used to quickly draw a family history pedigree. This app is preferred over many paid
-          pedigree drawing applications by Myriad's own Genetic Counselor's. The app uses GoJS to draw the actual pedigree
+          pedigree drawing applications by Myriad's own Genetic Counselors. The app uses GoJS to draw the actual pedigree
           in an HTML canvas."
 
       - title: Find A Provider

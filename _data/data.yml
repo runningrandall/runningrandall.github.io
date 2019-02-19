@@ -41,7 +41,8 @@ career-profile:
     title: Career Profile
     summary: |
       Software Engineer with over 10 years of experience building web applications.
-      Known for getting things done, I love building software solutions to complex problems using innovative solutions.
+      Known for getting things done, I love building software solutions and great UIs
+      to solve complex problems.
 
 education:
     - degree: BS, Computer Science (Currently Enrolled)
@@ -78,7 +79,7 @@ experiences:
           responsible for many internal and external applications. I spent most 
           of my time writing Javascript, PHP, HTML, and CSS.
 
-          - Created and implemented web development standards and processes to manage a small team of designers/developers.
+          - Created and implemented web development standards, UI principles, and development processes to manage a small team of designers/developers.
           - Implemented content management systems (Wordpress and Sharepoint). Built many custom themes and plugins for Wordpress.
           - Built MyriadPro.com from the ground up and integrated various applications to create a seamless experience for customers.
           - Using AngularJS and some other web technologies I built several patient risk identification applications that gather family history, generate pedigrees, run various risk assessment models, and inform patients of their potential risk of hereditary cancer.
